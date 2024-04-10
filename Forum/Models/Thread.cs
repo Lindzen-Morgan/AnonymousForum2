@@ -7,6 +7,6 @@
         public string? Text { get; set; }
         public List<Reply>? Replies { get; set; }
         public int DiscussionSubjectId { get; set; }
-        public DiscussionSubject? DiscussionSubject { get; set; }
+        public DiscussionSubject? DiscussionSubject { get; set; } 
     }
 }

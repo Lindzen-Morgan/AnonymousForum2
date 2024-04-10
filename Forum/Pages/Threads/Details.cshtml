@@ -1,0 +1,49 @@
+﻿@page
+@model Forum.ThreadController.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/_ViewImports.cshtml";
+}
+
+<h1>Details</h1>
+
+@if (Model.Thread != null)
+{
+    <div>
+        <h4>Thread</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Thread.Title)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Thread.Title)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Thread.Text)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Thread.Text)
+            </dd>
+            @if (Model.Thread.DiscussionSubject != null)
+            {
+                <dt class="col-sm-2">
+                    Discussion Subject ID
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Thread.DiscussionSubject.Id)
+                </dd>
+            }
+        </dl>
+    </div>
+}
+else
+{
+    <p>Thread not found.</p>
+}
+
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Thread.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

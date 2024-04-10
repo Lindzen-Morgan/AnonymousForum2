@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Forum
 build_property.RootNamespace = Forum
@@ -18,20 +26,92 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\morga\OneDrive\Skrivbord\AnonymousForum\Forum
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Discussions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY3Vzc2lvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Discussions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY3Vzc2lvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Discussions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY3Vzc2lvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Discussions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY3Vzc2lvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Discussions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY3Vzc2lvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Replies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwbGllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Replies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwbGllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Replies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwbGllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Replies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwbGllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Replies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwbGllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Threads/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhyZWFkc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Threads/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhyZWFkc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Threads/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhyZWFkc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Threads/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhyZWFkc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/Threads/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhyZWFkc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/morga/OneDrive/Skrivbord/AnonymousForum/Forum/Pages/_ViewImports.cshtml]

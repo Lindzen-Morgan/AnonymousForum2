@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Forum;
+using Forum.Models;
+
+namespace Forum.Controller
+{
+    public class CreateModel : PageModel
+    {
+        private readonly Forum.ApplicationDbContext _context;
+
+        public CreateModel(Forum.ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult OnGet()
+        {
+        ViewData["ThreadId"] = new SelectList(_context.Threads, "Id", "Id");
+            return Page();
+        }
+
+        [BindProperty]
+        public Reply Reply { get; set; } = default!;
+
+        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+        public async Task<IActionResult> OnPostAsync()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            _context.Replies.Add(Reply);
+            await _context.SaveChangesAsync();
+
+            return RedirectToPage("./Index");
+        }
+    }
+}

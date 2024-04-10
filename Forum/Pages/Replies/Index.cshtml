@@ -1,0 +1,41 @@
+﻿@if (Model.Reply != null && Model.Reply.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Text</th>
+                <th>Thread Id</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Reply)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Text</td>
+                    <td>
+                        @if (item.Thread != null)
+                        {
+                            @item.Thread.Id
+                        }
+                        else
+                        {
+                            <span>N/A</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No replies found.</p>
+}
